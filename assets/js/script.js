@@ -19,8 +19,8 @@ $(document).ready(function() {
       btnText: "Purchase Tickets",
       btnUrl: "tickets.html"
     },
-  ]
-
+  ];
+  
   carouselSlides.forEach((slide, i) => {
     $('.carousel-inner').append(`
   <div class="carousel-item fullscreen-carousel" style="background-image: url('${slide.img}')">
